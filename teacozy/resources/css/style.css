@@ -1,0 +1,128 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  height: 69px;
+  width: 100vw;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+nav span a {
+  color: white;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+.jumbotron_one {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jumbotron_one div {
+  background-color: black;
+  width: 100vw;
+  height: 100px;
+  line-height: 0.5;
+}
+
+.main h2 {
+  margin-top: 80px;
+}
+
+.teas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+}
+
+.tea h4 {
+  margin-top: -5px;
+}
+
+.jumbotron_two {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.jumbotron_two h2 {
+  position: relative;
+  top: 70px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: space-between;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+}
+
+.location {
+  display: flex;
+  background-color: black;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  line-height: 1.2;
+  opacity: 1;
+}
+
+footer .info {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .copyright {
+  float: left;
+  margin-left: 20px;
+}
+
